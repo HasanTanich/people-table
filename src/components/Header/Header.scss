@@ -1,0 +1,27 @@
+.header {
+  border-bottom: solid #dadadab2 2px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 6rem;
+
+  &__item {
+    padding: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: inherit;
+
+    &--active {
+      color: blue;
+      background-color: lightgray;
+    }
+
+    &:hover {
+      color: blue;
+    }
+  }
+
+}
