@@ -3,24 +3,25 @@
 }
 
 .navbar {
+  color: #4a4a4a;
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-left: 6rem;
+  margin-left: 10rem;
 
   &__item {
-    padding: 20px;
+    padding: 15px;
     font-size: 16px;
     text-decoration: none;
     color: inherit;
 
     &--active {
-      color: blue;
+      color: rgb(32, 32, 250);
       background-color: lightgray;
     }
 
     &:hover {
-      color: blue;
+      color: rgb(17, 17, 247);
     }
   }
 

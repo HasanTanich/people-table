@@ -1,0 +1,36 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  &__header {
+    color: #363636;
+    border-bottom: solid lightgray 2px;
+    padding: 0.25em 0.5em;
+    text-align: left;
+
+    &__box {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      gap: 0.2rem;
+
+      a {
+        color: #485fc7;
+        text-decoration: none;
+
+        :hover {
+          color: #363636;
+        }
+      }
+    }
+  }
+
+}
+
+.icon {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}

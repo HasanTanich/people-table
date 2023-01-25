@@ -1,5 +1,42 @@
-.people-content {
+.block {
+  color: #4a4a4a;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.columns {
   display: flex;
-  align-items: center;
-  gap: 30px;
+  flex-direction: row-reverse;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+}
+
+.column {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.75rem;
+}
+
+.filters {
+  flex: none;
+  width: auto;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.02);
+  color: #4a4a4a;
+  display: block;
+  padding: 1.25rem;
+}
+
+.table-container {
+  max-width: 100%;
+  overflow: auto;
+  overflow-y: hidden;
 }
